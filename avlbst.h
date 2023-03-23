@@ -8,8 +8,6 @@
 #include <algorithm>
 #include "bst.h"
 
-using namespace std;
-
 struct KeyError { };
 
 /**
