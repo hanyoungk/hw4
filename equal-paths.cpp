@@ -32,7 +32,6 @@ bool equalPaths(Node * root)
     if(root == nullptr) {
         return true;
     }
-
     int left = 1 + height(root->left);
     int right = 1 + height(root->right);
     return (left == right);
